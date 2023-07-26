@@ -63,7 +63,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-slf4j2-impl</artifactId>
+      <artifactId>log4j-slf4j-impl</artifactId>
       <version>${log4j2-version}</version>
 <!--      <scope>runtime</scope>-->
     </dependency>
@@ -83,8 +83,8 @@
         <version>${camel.version}</version>
         <configuration>
           <!-- use built-in logging, instead of logback -->
-          <logLevel>INFO</logLevel>
-          <mainClass>org.apache.camel.example.MyApplication</mainClass>
+          <loggingLevel>INFO</loggingLevel>
+          <mainClass>hs.example.camel.MyApplication</mainClass>
         </configuration>
       </plugin>
     </plugins>
