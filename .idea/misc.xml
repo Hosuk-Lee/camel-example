@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/camel-example-main/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/camel-example-main-yaml/pom.xml" />
       </list>
     </option>
   </component>

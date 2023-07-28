@@ -1,5 +1,3 @@
 hs/example/camel/MyConfiguration.class
 hs/example/camel/MyBean.class
 hs/example/camel/MyApplication.class
-hs/example/camel/MyRouteBuilder.class
-hs/example/camel/StandaloneCamel.class

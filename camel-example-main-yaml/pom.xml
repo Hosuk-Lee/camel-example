@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>hs.example.camel</groupId>
-  <artifactId>camel-example-main</artifactId>
+  <artifactId>camel-example-main-yaml</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Camel Example :: Main</name>
-  <description>Camel Example :: Main</description>
+  <name>Camel Example :: Main :: Yaml</name>
+  <description>Camel Example :: Main :: Yaml</description>
 
   <parent>
     <groupId>hs.example.camel</groupId>
@@ -35,6 +35,10 @@
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-main</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-yaml-dsl</artifactId>
+    </dependency>
 
     <!-- and we use these components -->
     <dependency>
@@ -47,30 +51,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
-      <artifactId>camel-timer</artifactId>
-    </dependency>
-
-    <!-- camel-main web console -->
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-platform-http</artifactId>
-<!--      <artifactId>camel-platform-http-main</artifactId>-->
-    </dependency>
-    <!-- developer consoles for web console -->
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-console</artifactId>
-    </dependency>
-    <!-- JMX metrics for web console -->
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-management</artifactId>
-    </dependency>
-
-    <!-- camel-cli -->
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-cli-connector</artifactId>
+      <artifactId>camel-quartz</artifactId>
     </dependency>
 
     <!-- logging -->
