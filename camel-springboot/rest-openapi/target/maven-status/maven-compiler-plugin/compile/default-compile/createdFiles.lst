@@ -1,0 +1,5 @@
+hs/example/camel/springboot/Application.class
+hs/example/camel/springboot/UserService.class
+hs/example/camel/springboot/CamelRouter.class
+hs/example/camel/springboot/User.class
+hs/example/camel/springboot/UserServiceImpl.class

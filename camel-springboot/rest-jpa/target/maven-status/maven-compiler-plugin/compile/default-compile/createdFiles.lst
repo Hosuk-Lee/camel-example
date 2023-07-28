@@ -1,0 +1,9 @@
+hs/example/camel/springboot/Application.class
+hs/example/camel/springboot/OrderService.class
+hs/example/camel/springboot/Database.class
+hs/example/camel/springboot/Application$RestApi.class
+hs/example/camel/springboot/Book.class
+hs/example/camel/springboot/Order.class
+hs/example/camel/springboot/Application$Backend.class
+hs/example/camel/springboot/OrderRepository.class
+hs/example/camel/springboot/BookRepository.class

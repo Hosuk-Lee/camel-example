@@ -84,7 +84,7 @@
         <configuration>
           <!-- use built-in logging, instead of logback -->
           <loggingLevel>INFO</loggingLevel>
-          <mainClass>hs.example.camel.MyApplication</mainClass>
+          <mainClass>hs.example.camel.springboot.MyApplication</mainClass>
         </configuration>
       </plugin>
     </plugins>

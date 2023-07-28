@@ -8,16 +8,23 @@
   <artifactId>camel-example</artifactId>
   <packaging>pom</packaging>
   <version>1.0</version>
+
   <name>Camel Example</name>
   <description>Camel Example</description>
   <profiles>
     <profile>
-        <id>default-first</id>
-        <modules>
-          <module>camel-example-main</module>
-          <module>camel-example-main-yaml</module>
-      <!--    <module>chapter2</module>-->
-        </modules>
+      <id>default-first</id>
+      <modules>
+        <module>camel-example-main</module>
+        <module>camel-example-main-yaml</module>
+    <!--    <module>chapter2</module>-->
+      </modules>
+    </profile>
+    <profile>
+      <id>springboot</id>
+      <modules>
+        <module>camel-springboot</module>
+      </modules>
     </profile>
   </profiles>
 
